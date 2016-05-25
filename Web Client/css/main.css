@@ -1,0 +1,183 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family:verdana;
+	font-size:12px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	padding:5px;
+	background-color:#106cb7;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+	font-size:16px;
+	font-weight:bold;
+	padding:4px;
+	color:#106cb7;
+	text-shadow: 1px 1px black;
+}
+
+.group {
+	border-width:1px 1px 2px 1px;
+	border-color:black;
+	border-style:solid;
+	margin:10px 0px;
+
+}
+
+.grouphdr {
+	background-color:#106cb7;
+	color:white;
+	padding:5px;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.grouptbl {
+	padding:5px;
+}
+
+.wrapper {
+	margin:20px 20px 0px;
+	padding:20px;
+	background-color:white;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:1px solid black;	
+	box-shadow: 2px 2px 2px #000000;
+}	
+
+#header {
+	height:50px;
+}
+
+#header h1 {
+	float:left;
+	vertical-align:middle;
+	margin-top:0.7em;
+}
+
+#logo {
+	height:50px;
+	width:50px;
+	float:left;
+}
+
+.label {
+	vertical-align:middle;
+	display:inline-block;
+	width:150px;
+}
+
+.row span, .row input {
+	vertical-align:middle;
+	display:inline-block;
+}
+
+.row {
+	clear:both;
+	padding:3px;
+	width:450px;
+	line-height:20px;
+}
+
+.column {
+	width:450px;
+	float:left;
+}
+
+.indicator {
+	float:right;
+	width:100px;
+}
+
+.true {
+	background-color:green;
+}
+
+.false {
+	background-color:red;
+}
+
+h2 {
+	padding-top:5px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.ui-dialog .ui-state-error { padding: .3em; }
+
+.validateTips {
+	padding-top:5px;
+}
+
+#dialog-form input {
+	display:block;
+}
+
+#dialog-form label {
+	display:block;
+}
+
+#dialog-form fieldset { padding:0; border:0; margin-top:15px; }
+
+#dialog-form input.text { margin-bottom:12px; width:95%; padding: .4em; }
+
+#login {
+	float:right;
+}
+
+#Send {
+	width:18%;
+	float:right;
+	padding:1px;
+}
+
+#text {
+	width:80%;
+}
+
+.username {
+	font-weight:bold;
+}
+
+.message {
+	padding:5px;
+}

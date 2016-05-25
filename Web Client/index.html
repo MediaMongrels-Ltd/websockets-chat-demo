@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>WebSockets Chat</title>
+		<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+		<link href="css/smoothness/jquery-ui-1.10.0.custom.css" rel="stylesheet">
+		<link href="css/main.css" rel="stylesheet" type="text/css">			
+		<script language="javascript" type="text/javascript" src="js/jquery.js"></script>
+		<script language="javascript" type="text/javascript" src="js/main.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jquery-ui-1.10.0.custom.js"></script>
+		<script language="javascript" type="text/javascript" src="js/labview_interface.js"></script>	
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="header">
+				<input type="button" class="button" value="Login" name="Login" id="login" />
+				<h1>WebSockets Chat Demo</h1>
+			</div>
+			<div id="container">
+			
+			</div>
+			<div class="group">
+				<div class="grouphdr">Status</div>
+				<div class="grouptbl">
+					<div class="row" style="">
+						<label class="label">Connection Status:</label>
+						<span class="conn_status" style=""></span>
+					</div>		
+					<div class="row" style="width:100%">
+						<label class="label" width="150px;">Users:</label>
+						<span class="users" style="width:auto;"></span>
+					</div>						
+				</div>
+			</div>	
+			<div class="group">
+				<div class="grouphdr">Chat</div>
+				<div class="grouptbl">
+					<div id="chatLog">
+					
+					</div>
+					<div style="margin-top:15px;">
+					<input id="text" type="text" />
+					<input type="button" class="button" value="Send" name="Send" id="Send" />
+					</div>
+				</div>
+			</div>						
+		</div>
+		<div id="dialog-form" title="Login">
+			<p class="validateTips">Enter your username/password below to login.</p>
+		 
+			<form>
+				<fieldset>
+					<label for="username">Username</label>
+					<input type="text" name="name" id="name" value="" class="text ui-widget-content ui-corner-all"><br />
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" value="" class="text ui-widget-content ui-corner-all"><br />
+			 
+					<!-- Allow form submission with keyboard without duplicating the dialog button -->
+					<input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+				</fieldset>
+			</form>
+		</div>			
+	</body>
+</html>
